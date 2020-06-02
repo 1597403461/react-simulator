@@ -122,7 +122,7 @@ const Nami = {
     render
 };
 
-const element = ( <div id='foo'><p id='first'>123</p><p id='second'>456</p></div>);
+const element = ( <div id='foo'><p id='first'>123</p><p id='second'>789</p></div>);
 const container = document.getElementById("root");
 Nami.render(element, container);
 

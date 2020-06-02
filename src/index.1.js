@@ -1,5 +1,5 @@
 /**
- * 简单实现流程：首先知道jsx语法其实调用的就是createElement方法：createElement方法返回的一个包含 type 和 props 的元素对象,描述节点信息（就是把 JSX 结构转成元素描述对象）
+ * 简单实现流程：首先知道jsx语法其实调用的就是 createElement 方法：createElement 方法返回的一个包含 type 和 props 的元素对象,描述节点信息（就是把 JSX 结构转成元素描述对象）
  * <div id='foo'><p>123</p><p>456</p></div> ----createElement---->>>  React.createElement("div",{ id: "foo" },React.createElement("p", null, "123"),React.createElement("p",null,'456'))
  * createElement其第一个参数是jsx标签名称（div、span等），第二个参数是标签属性（例如class，id，style等），剩余参数即为改标签元素的子节点
  * createElement最后生成的是一个dom树

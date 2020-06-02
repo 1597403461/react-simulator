@@ -8,7 +8,6 @@ var config = {
         // './src/index.2.js',
         // './src/index.3.js',
         // './src/index.4.js',
-        // './src/index.js',
     ], // 入口文件
     output: {
         path: path.resolve(__dirname, 'dist'),

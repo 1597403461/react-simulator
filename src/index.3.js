@@ -66,7 +66,7 @@ let wipRoot = null;
 
 function workLoop(deadline) {
     let shouldYield = false;
-    
+
     while (nextUnitOfWork && !shouldYield) {
         nextUnitOfWork = performUnitOfWork(
             nextUnitOfWork
